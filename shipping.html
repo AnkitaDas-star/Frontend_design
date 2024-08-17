@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website style</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="..//website/image/1.jpg" rel="icon" type="image"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css">
+        <style>
+            body{
+                background-color: rgb(35, 137, 169);
+                /*border: 5px solid;
+                border-color: aqua rgb(179, 213, 245) royalblue violet; 
+                border-radius: 7px;*/
+            }
+            .div
+            {
+                position: top;
+                background-color: rgba(149, 194, 236, 0.959);
+                height: 50px;
+                border: 3px solid;
+                border-color:rgb(18, 25, 119);
+                border-radius: 5px;
+            }
+            .div1{
+                margin-left: 500px;
+            }
+            
+            td{
+                width: 10%;
+            }
+            .select{
+                background-color: transparent;
+                width: 150px;
+                height: 40px;
+                border-style: solid;
+                border-color: rgba(149, 182, 236, 0.959);
+                font-weight: bold;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 15px;
+                margin: 0px;
+                padding: 0px;
+            }
+            h1{
+                color: rgb(2, 1, 1);
+                margin-left: 360px;
+                margin-top: 50px;
+                letter-spacing: 5px;
+                font-family: Calibri;
+                font-size: 50px;
+            }
+            p{
+                color: white;
+            }
+            .tdopac{
+                transition: transform .3s;
+                opacity: 0.6;
+                background-color: rgba(149, 182, 236, 0.959);
+            }
+            .tdopacho:hover{
+               transform: scale(1.5);
+               opacity: 1.0;
+               background-color: rgb(226, 43, 150);
+               
+            }
+            .td1{
+                color: black;
+                width: 120px;
+                height: 120px;
+            }
+            .track{
+                margin-left: 300px;
+                margin-top: 100px;
+            }
+            .input{
+                height: 50px;
+                width: 600px;
+                border: 2px,solid;
+                border-color:rgb(144, 43, 226);
+                border-radius: 15px;
+            }
+            .button{
+                height: 55px;
+                width: 120px;
+                background-color: transparent;
+                border: 2px,solid;
+                border-color: rgb(0, 132, 255);
+                border-radius: 15px;
+                color: black;
+                font-weight: bold;
+            }
+            .font{
+                color:black;
+            }
+            .changecolor:hover{
+                background-color: rgb(12, 229, 236);
+            }
+        </style>
+        <script>
+            function myfun()
+            {
+                document.getElementById("demo").innerHTML=" <video src='video.mp4' width='20%' poster='shipping.jpg'  controls></video>";
+            }
+            function myfun2()
+            {
+                document.getElementById("demo").innerHTML=" <video src='video.mp4' width='20%' poster='track.jpg'  controls></video>";
+            }
+            function myfun3()
+            {
+                document.getElementById("demo").innerHTML=" <video src='video.mp4' width='20%' poster='location.jpg'  controls></video>";
+            }
+        </script>
+    </head>
+    <body>
+            <div class="div">
+                <table>
+                    <tr>
+                        <td>
+                            <select class="select" id="dropdownshipping" name="selectshipping">
+                                <option value="Shipping" selected>Shipping</option>
+                                <option>----SELECT CITY----</option>
+                                <option value="ONLINE MODE">ONLINE MODE</option>
+                                <option value="OFFLINE MODE">OFFLINE MODE</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="select" id="dropdowntracking" name="selecttracking">
+                                <option value="Tracking" selected>Tracking</option>
+                                <option>----SELECT TRACKING----</option>
+                                <option value="FAST">FAST</option>
+                                <option value="NORMAL">NORMAL</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="select" id="dropdowndesign&print" name="selectdesisgn&print">
+                                <option value="Design & Print" selected>Design & Print</option>
+                                <option>----SELECT DESIGN & PRINT----</option>
+                                <option value="LOW QUALITY">LOW QUALITY</option>
+                                <option value="MEDIUM QUALITY">MEDIUM QUALITY</option>
+                                <option value="HIGH QUALITY">HIGH QUALITY</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="select" id="dropdownlocation" name="selectlocation">
+                                <option value="Location" selected>Location</option>
+                                <option>----SELECT LOCATION----</option>
+                                <option value="INDIA">INDIA</option>
+                                <option value="USA">USA</option>
+                                <option value="AUSTRALIA">AUSTRALIA</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="select" id="dropdownsupport" name="selectsupport">
+                                <option value="Support" selected>Support</option>
+                                <option>----SELECT SUPPORT----</option>
+                                <option value="HELPLINE NO">HELPLINE NO.</option>
+                                <option value="EMAIL">OUR EMAIL</option>
+                                <option value="CHAT">CHAT WITH US</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p id="demo" align="center"><img src ="track.jpg" width="400px" height="300px"></p>
+            <br/>
+            <h1>Ship,Manage,Track,Deliver</h1>
+            <div class="div1">
+                <table>
+                    <tr>
+                        <p><b><font color="black" size="100">click this images</font></b></p>
+                        <td class="td1 tdopac tdopacho" align="center" onclick="myfun()"><p class="font"><img src ="shipping.jpg" width="50" height="50"><br/>RATE & SHIP</p></td>
+                        <td class="td1 tdopac tdopacho" align="center" onclick="myfun2()"><p class="font"><img src ="track.jpg" width="50" height="50"><br/>TRACK</p></td>
+                        <td class="td1 tdopac tdopacho" align="center" onclick="myfun3()"><p class="font"><img src ="location.jpg" width="50" height="50"><br/>LOCATION</p></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="track">
+            <table>
+                <th><input class="input" type="textbox" id="txttrackid" name="trackid" placeholder="Tracking id"></th>
+                <th><button class="button changecolor" id="btntrack" value="track">TRACK ID</button></th>
+            </table>
+            </div>
+            <p color="white" align="center">MULTIPLE TRACKING NUMBER  |  NEED HELP?</p>
+            <textarea name="txtarea" placeholder="add your text here"></textarea>
+    </body>
+</html>
