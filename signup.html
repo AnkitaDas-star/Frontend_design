@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP</title>
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		        <style>
+            body{
+               background-color: rgb(22, 118, 118);
+            }
+            table{
+                line-height: 40px;
+                background-color: white;
+                margin-top: 150px;
+                height: 400px;
+                width: 300px;
+                box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4);
+				background-color:rgba(255,255,255,0.09)
+            }
+            .backcolor{
+                background-color: #42b9f5;
+            }
+            .backborder{
+                 border-color: #42b9f5;
+            }
+            p{
+                border-style: solid;
+                border-color: #42b9f5;
+            }
+            .button{
+                width: 150px;
+                height: 45px;
+                color: white;
+                font-weight: bold;
+                margin-left: 100px;
+            }
+            .button1{
+                width: 145px;
+                height: 45px;
+                color: black;
+                font-weight: bold;
+                background-color: transparent;
+                border-style: solid;
+                border-color: #42b9f5;
+                border-width: 3px;
+            }
+            .txtbox{
+                width: 300px;
+                height: 30px;
+                border-style: solid;
+                border-radius: 5px;
+                border-width: 2.5px;
+                border-color: #42b9f5;
+            }
+        </style>
+		<script>
+			function myfunction()
+			{
+				var name = document.getElementById("txtusername").value;
+				var phone = document.getElementById("txtphone").value;
+				var email = document.getElementById("txtemail").value;
+				var password = document.getElementById("txtpassword").value;
+				var password1 = document.getElementById("txtcnpassword").value;
+				
+				if(name=="")
+				{
+					alert("please enter your name");
+				}
+				else if(phone == "")
+				{
+					alert("please enter your phone number");
+				}
+				else if(email == "")
+				{
+					alert("please enter your email");
+				}
+				
+				else if(password == "")
+				{
+					alert("please give your password");
+				}
+				else if(password1 == "")
+				{
+					alert("please give your confirm password");
+				}
+				
+				else
+				{
+					document.write("Well Done!!");
+				}
+			}
+			
+        </script>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <th width=200 height=50 colspan="2" ><i class="fa fa-sign-in fa-3x" aria-hidden="true"></i><br/>SIGN UP</th>
+            </tr>
+            <tr>
+				<td <i class="fa fa-user-o fa-2x" aria-hidden="true"></i></td>
+                <td align="center"><input class="txtbox" type="text" id="txtusername" placeholder="username"></td>
+            </tr>
+			<tr>
+				<td <i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+                <td align="center"><input class="txtbox" type="number" id="txtphone" placeholder="PhoneNo"></th>
+            </tr>
+            <tr>
+				<td <i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></td>
+                <td align="center"><input class="txtbox" type="email" id="txtemail" placeholder="E-mail"></th>
+            </tr>
+            <tr>
+				<td <i class="fa fa-lock fa-2x" aria-hidden="true"></i></td>
+                <td align="center"><input class="txtbox" type="password" id="txtpassword" placeholder="Password"></th>
+            </tr>
+			<tr>
+				<td <i class="fa fa-unlock-alt fa-2x" aria-hidden="true"></i></td>
+                <td align="center"><input class="txtbox" type="password" id="txtcnpassword" placeholder="Confirm Password"></th>
+            </tr>
+            
+            <tr>
+                <td  colspan="2"><button class="button backcolor" onclick="myfunction()">SIGN UP</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
