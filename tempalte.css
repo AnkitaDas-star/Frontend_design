@@ -1,0 +1,300 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    position: fixed;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav-right {
+    float: right;
+    margin-right: 12%;
+  }
+  .topnav-center {
+    margin-left: 40%;
+  }
+  .loginbtn {
+    float: left;
+    display: block;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(35, 161, 69);
+  }
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position:fixed;
+    background-color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+.felixdiv{
+    position: absolute;
+  width: 312px;
+  height: 80px;
+  left: 76.68px;
+  top: 70px;
+  
+  font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 45.5156px;
+line-height: 176%;
+  /* identical to box height, or 80px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #323332;
+}
+.digitaldiv{
+    position: absolute;
+width: 417.66px;
+height: 28.63px;
+left: 76.68px;
+top: 142.12px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18.4035px;
+line-height: 156%;
+/* identical to box height, or 29px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.experdiv{
+  position: absolute;
+  width: 460.09px;
+  height: 41.41px;
+  left: 76.17px;
+  top: 360.91px;
+  
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.5156px;
+  line-height: 176%;
+  /* identical to box height, or 41px */
+  
+  
+  color: #70706F;
+}
+.ibuilddiv{
+    position: absolute;
+width: 817.93px;
+height: 64.41px;
+left: 76.68px;
+top: 195.79px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18.4035px;
+line-height: 176%;
+/* or 32px */
+
+letter-spacing: 0.03em;
+
+color: #939598;
+}
+.hrdiv{
+    position: absolute;
+width: 1150.22px;
+height: 0.51px;
+left: 76.68px;
+top: 306.72px;
+
+background: #C4C4C4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.h2design{
+  font-family:sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18.4035px;
+  line-height: 106%;
+  color: #70706F;
+}
+.Stealthdiv{
+    position: absolute;
+  width: 553.13px;
+  height: 192.21px;
+  left: 76.68px;
+  top: 420.21px;
+}
+.p1 p{
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 60%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.applediv{
+  position: absolute;
+width: 553.13px;
+height: 192.21px;
+left: 76.68px;
+top: 656.39px;
+}
+.stripediv{
+  position: absolute;
+  width: 553.13px;
+  height: 192.21px;
+  left: 76.68px;
+  top: 892.57px;
+}
+.acornsdiv{
+  position: absolute;
+  width: 553.13px;
+  height: 192.21px;
+  left: 76px;
+  top: 1136px;
+}
+.fidelitydiv{
+  position: absolute;
+width: 553.13px;
+height: 192.21px;
+left: 76.68px;
+top: 1364.93px;
+}
+.refdiv{
+  position: absolute;
+width: 553.13px;
+height: 24.54px;
+left: 76.68px;
+top: 1650.83px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15.8026px;
+line-height: 176%;
+/* identical to box height, or 24px */
+
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.educationdiv{
+  position: absolute;
+  width: 460.09px;
+  height: 41.41px;
+  left: 768.35px;
+  top: 340.91px;
+  
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.5156px;
+  line-height: 176%;
+  /* identical to box height, or 41px */
+  
+  
+  color: #70706F;
+}
+.purduediv{
+  position: absolute;
+  width: 460.09px;
+  height: 127.8px;
+  left: 768.35px;
+  top: 419.19px;
+
+}
+.achivediv{
+  position: absolute;
+  width: 460.09px;
+  height: 127.8px;
+  left: 768.35px;
+  top: 589.19px;
+}
+.skilldiv{
+  position: absolute;
+width: 460.09px;
+height: 230.04px;
+left: 768px;
+top: 742px;
+}
+.softwarediv{
+  position: absolute;
+width: 553.13px;
+height: 41.41px;
+left: 768.35px;
+top: 1078.14px;
+}
+.designdiv{
+  position: absolute;
+width: 189.15px;
+height: 32.21px;
+left: 768.35px;
+top: 1122.61px;
+
+}
+.Illustratordiv{
+  position: absolute;
+width: 189.15px;
+height: 32.21px;
+left: 1008.61px;
+top: 1148.17px;
+}
